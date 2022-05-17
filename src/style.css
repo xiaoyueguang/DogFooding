@@ -1,0 +1,46 @@
+.dog-fooding-float-button {
+  position: fixed;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 48px;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 50%;
+  bottom: 24px;
+  right: 24px;
+  outline: none;
+  border: none;
+}
+
+.dog-fooding-snapshot {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  transition: all .4s ease;
+  border: 1px solid green;
+}
+
+.dog-fooding-snapshot canvas {
+  width: 100%!important;
+  height: 100%!important;
+}
+
+.dog-fooding-form {
+  width: 336px;
+  height: 500px;
+  position: fixed;
+  right: 0;
+  bottom: 24px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  transition: all .4s ease;
+  transform: translate(100%, 0);
+}

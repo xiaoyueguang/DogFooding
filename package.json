@@ -1,0 +1,21 @@
+{
+  "name": "dog-fooding",
+  "version": "0.0.2",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsup src/DogFooding.ts",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tsup": "^5.12.8",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1"
+  },
+  "files": [
+    "dist",
+    "README.MD"
+  ]
+}
